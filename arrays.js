@@ -4,5 +4,5 @@ function addElementToBeginningOfArray(array,element) {
 return [element,...array]
 }
 let destructivelyAddElementToBeginningOfArray = (array,element) => {
-  [...array,element]
+  array.upshift(element)
 }
