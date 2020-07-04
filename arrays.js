@@ -3,5 +3,3 @@ var icecreams = ['vanilla','chocolate',]
 function addElementToBeginningOfArray(){
   icecreams.unshift('strawberry')
 }
-
-
